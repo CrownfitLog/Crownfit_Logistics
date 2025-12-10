@@ -1,3 +1,4 @@
+//Accept carrier webhook updates (POST)- match by carrier_tracking_no and insert event.
 // pages/api/webhooks/carrier.js
 import db from '../../../lib/db';
 
