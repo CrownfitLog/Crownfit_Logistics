@@ -8,8 +8,11 @@ export default function Home() {
         <p className="mb-6">Request pickup, delivery or end-to-end logistics within Texas. Track shipments by Air Way Bill or Bill of Lading.</p>
         <div className="flex gap-4">
            <div className="flex flex-col gap-4">
-  <Link>📦 Create Booking</Link>     {/* Line 1 */}
-  <Link>🔍 Track Shipment</Link>     {/* Line 2 - below */}
+          <Link 
+            href="/book" 
+            className="px-4 py-2 bg-blue-600 text-white rounded text-center flex items-center justify-center gap-2" >
+
+ <Link href="/track" className="px-4 py-2 border rounded text-center flex items-center justify-center gap-2" >
 </div>
 
           </Link>
