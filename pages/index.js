@@ -7,13 +7,11 @@ export default function Home() {
         <h1 className="text-3xl font-bold mb-2">Crownfit Logistics — Book & Track</h1>
         <p className="mb-6">Request pickup, delivery or end-to-end logistics within Texas. Track shipments by Air Way Bill or Bill of Lading.</p>
         <div className="flex gap-4">
-           <Link href="/book" className="px-4 py-2 bg-blue-600 text-white rounded text-center flex items-center justify-center gap-2">
-            <span>📦</span>
-            <span>Create Booking</span>
-          </Link>
-          <Link href="/track" className="px-4 py-2 border rounded text-center flex items-center justify-center gap-2">
-            <span>🔍</span>
-            <span>Track Shipment</span>
+           <div className="flex flex-col gap-4">
+  <Link>📦 Create Booking</Link>     {/* Line 1 */}
+  <Link>🔍 Track Shipment</Link>     {/* Line 2 - below */}
+</div>
+
           </Link>
         </div>
       </main>
