@@ -8,7 +8,6 @@ export default function Home() {
         <p className="mb-6">Request pickup, delivery or end-to-end logistics within Texas. Track shipments by AWB or B/L.</p>
         <div className="flex gap-4">
           <Link href="/book" className="px-4 py-2 bg-blue-600 text-white rounded">Create Booking</Link>
-          <Link href="/book" className="bg-blue-600 text-white px-4 py-2 rounded">Book a Pickup</Link>
           <Link href="/track" className="px-4 py-2 border rounded">Track Shipment</Link>
         </div>
       </main>
